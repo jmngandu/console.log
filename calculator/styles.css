@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    background-color: burlywood;
+    margin: 10px;
+}
+span{
+    font-size: 20px;
+    margin: 20px;
+}
+fieldset{
+    margin: 0 20rem;
+    background-color:ghostwhite;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	display: block;
+    color: red;
+
+}
