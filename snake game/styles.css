@@ -73,6 +73,9 @@ body, h1, h2, p, ul, li {
     font-size: 16px;
     cursor: pointer;
 }
+.rounded-button:hover {
+    background-color: #555b61;
+}
 
 
 
