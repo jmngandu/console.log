@@ -76,6 +76,9 @@ body, h1, h2, p, ul, li {
 .rounded-button:hover {
     background-color: #555b61;
 }
+rounded-button:active {
+    background-color: #1c1f21; 
+}
 
 
 
