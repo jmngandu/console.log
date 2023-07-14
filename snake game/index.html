@@ -1,45 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Basic HTML and CSS Example</title>
+  <title>Tropical Paradise RSVP Form</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section>
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id nisl et risus maximus malesuada ac sed sapien.</p>
-    </section>
-
-    <section>
-      <h2>Our Services</h2>
-      <ul>
-        <li>Web Design</li>
-        <li>Graphic Design</li>
-        <li>Mobile App Development</li>
-      </ul>
-    </section>
-    <div class="container">
-        <button class="twitter-button">Log in with Twitter</button>
-        <button class="github-button">Login with GitHub</button>
+  <div class="container">
+    <h1 class="title">RSVP Form</h1>
+    <form class="rsvp-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
       </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-  </footer>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-button">RSVP Now</button>
+    </form>
+  </div>
 </body>
 </html>
