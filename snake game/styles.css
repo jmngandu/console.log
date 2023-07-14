@@ -65,3 +65,48 @@ body, h1, h2, p, ul, li {
     font-size: 16px; 
     cursor: pointer; 
   }  
+  .login-button {
+    background-color: #24292d; /* Update the background color to #24292d for GitHub */
+    color: #fff;
+    border: none;
+    border-radius: 50px; /* Create a rounded shape */
+    padding: 10px 20px; /* Add padding inside the button */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .login-button {
+    background-color: #24292d; /* Update the background color to #24292d for GitHub */
+    color: #fff;
+    border: none;
+    border-radius: 50px; /* Create a rounded shape */
+    padding: 10px 20px; /* Add padding inside the button */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .login-button {
+    background-color: #24292d;
+    color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
