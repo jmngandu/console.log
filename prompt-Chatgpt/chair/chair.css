@@ -1,0 +1,57 @@
+/* Reset some default browser styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero {
+    background-color: #f7f7f7; /* Set an elegant and neutral background color */
+    height: 100vh; /* Make the hero section full viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    color: #333; /* Use a subdued hue for the main heading */
+    margin-bottom: 20px;
+  }
+  
+  .subheading {
+    font-size: 24px;
+    color: #666; /* Use a slightly darker hue for the subheading */
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #777; /* Use a muted hue for the description text */
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #555; /* Use an earthy tone for the button background */
+    color: #fff; /* Use white text color for contrast */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Add a smooth transition for background color change */
+  }
+  
+  .cta-button:hover {
+    background-color: #333; /* Darken the button on hover */
+  }
+  
