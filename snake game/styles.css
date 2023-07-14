@@ -65,6 +65,9 @@ body, h1, h2, p, ul, li {
     font-size: 16px; 
     cursor: pointer; 
   }  
+  .twitter-button:hover{
+      background-color: lightblue;
+  }
    .github-button {
     background-color: #24292d;
     color: #fff;
@@ -73,10 +76,10 @@ body, h1, h2, p, ul, li {
     font-size: 16px;
     cursor: pointer;
 }
-.rounded-button:hover {
+.github-button:hover {
     background-color: #555b61;
 }
-rounded-button:active {
+.github-button:active {
     background-color: #1c1f21; 
 }
 
