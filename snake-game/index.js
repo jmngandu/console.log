@@ -6,7 +6,7 @@ var board;
 var context;
 
 //snake head
-var snakeX = board
+var snakeX = blockSize * 5;
 
 window.onload = function() {
     board = document.getElementById("board");
