@@ -59,7 +59,8 @@ function update() {
     for (let i = 0; i < snakeBody.length; i++){
         context.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
     }
-    //gameOver
+    //game Over conditions
+    if (snakeX < 0 || snakex > cols * blockSize)
 }
 
 function changeDirection(e){
