@@ -8,6 +8,8 @@ var context;
 //snake head
 var snakeX = blockSize * 5;
 var snakeY = blockSize * 5;
+var velocityX = 0;
+var velocityY = 0;
 
 //snake food
  var foodX;
@@ -34,6 +36,12 @@ function update() {
     context.fillRect(snakeX, snakeY, blockSize, blockSize);
     context.fillStyle = "red"
     context.fillRect(foodX, foodY, blockSize, blockSize);
+}
+
+function changeDirection(e){
+    if (e.code == "ArrowUp"){
+
+    }
 
 }
 
