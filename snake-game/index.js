@@ -60,7 +60,7 @@ function update() {
         context.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
     }
     //game Over conditions
-    if (snakeX < 0 || snakex > cols * blockSize)
+    if (snakeX < 0 || snakeX > cols * blockSize || snakeY < 0 || snakeY > rows * blockSize)
 }
 
 function changeDirection(e){
