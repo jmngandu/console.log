@@ -10,8 +10,8 @@ var snakeX = blockSize * 5;
 var snakeY = blockSize * 5;
 
 //snake food
- var foodX = blockSize * 10;
- var foodY = blockSize * 10;
+ var foodX;
+ var foodY;
 
 
 
@@ -22,6 +22,7 @@ window.onload = function() {
     board.width = cols * blockSize;
     context = board.getContext("2d") // used for drawing on the board
 
+    placeFood
     update();
 }
 
