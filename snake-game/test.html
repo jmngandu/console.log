@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Example</title>
+  <style>
+    /* Add some styles to the canvas */
+    canvas {
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas" width="400" height="200"></canvas>
+
+  <script>
+    // Get a reference to the canvas element
+    const canvas = document.getElementById('myCanvas');
+
+    // Get the 2D rendering context
+    const ctx = canvas.getContext('2d');
+
