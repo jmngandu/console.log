@@ -16,6 +16,7 @@ var snakeBody = [];
 //snake food
  var foodX;
  var foodY;
+  var gameOver;
 
 
 
@@ -41,12 +42,18 @@ function update() {
         snakeBody.push([foodX, foodY])
         placeFood();
     }
+    for(let i = snakeBody.length-1; i > 0; i--){
+        snakeBody[i] = snakeBody[i-1];
+    }
+    if (snakeBody.length){
+        snakeBody[0] = [snakeX, snakeY];
+    }
     context.fillStyle = "lime"
     snakeX += velocityX * blockSize;
     snakeY += velocityY * blockSize;
     context.fillRect(snakeX, snakeY, blockSize, blockSize);
     for (let i = 0; i < snakeBody.length; i++){
-        context.fillRect(snakeBody[i][0], snakeBody[1])
+        context.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
     }
     
 }
