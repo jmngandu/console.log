@@ -34,3 +34,8 @@ function update() {
     context.fillRect(foodX, foodY, blockSize, blockSize);
 
 }
+
+function placeFood() {
+    foodX = Math.floor(Math.random() * cols) * blockSize;
+    foodY = 
+} 
