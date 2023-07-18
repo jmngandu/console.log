@@ -1,7 +1,7 @@
 //block
 var blockSize =25;
-var rows = 15;
-var cols = 15;
+var rows = 20;
+var cols = 20;
 var board;
 var context;
 
@@ -26,13 +26,16 @@ window.onload = function() {
 
     placeFood();
     document.addEventListener("keyup", changeDirection);
-    update();
+    //update();
+    setInterval(update, 1000,10);
 }
 
 function update() {
     context.fillStyle = "black"
     context.fillRect(0, 0, board.width, board.height);
     context.fillStyle = "lime"
+    snakeX += velocityX * blockSize;
+    snakeY += velocityY * blockSize;
     context.fillRect(snakeX, snakeY, blockSize, blockSize);
     context.fillStyle = "red"
     context.fillRect(foodX, foodY, blockSize, blockSize);
