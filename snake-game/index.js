@@ -12,5 +12,8 @@ window.onload = function() {
     context = board.getContext("2d") // used for drawing on the board
 
     update();
+}
 
+function update() {
+    
 }
