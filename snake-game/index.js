@@ -5,6 +5,9 @@ var cols = 20;
 var board;
 var context;
 
+//snake head
+var snakeX = board
+
 window.onload = function() {
     board = document.getElementById("board");
     board.height = rows * blockSize;
@@ -16,6 +19,6 @@ window.onload = function() {
 
 function update() {
     context.fillStyle = "black"
-    context.fillRect(0, 0, board.width, board.height)
+    context.fillRect(0, 0, board.width, board.height);
 
 }
