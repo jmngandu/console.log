@@ -16,7 +16,7 @@ var snakeBody = [];
 //snake food
  var foodX;
  var foodY;
-  var gameOver;
+  var gameOver =  false;
 
 
 
