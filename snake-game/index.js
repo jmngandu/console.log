@@ -1,7 +1,7 @@
 //block
 var blockSize =25;
-var rows = 20;
-var cols = 20;
+var rows = 15;
+var cols = 15;
 var board;
 var context;
 
@@ -22,7 +22,8 @@ window.onload = function() {
     board.width = cols * blockSize;
     context = board.getContext("2d") // used for drawing on the board
 
-    placeFood
+    placeFood();
+    document.addEventListener("keyup", changeDirection);
     update();
 }
 
