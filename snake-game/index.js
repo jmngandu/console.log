@@ -9,7 +9,8 @@ window.onload = function() {
     board = document.getElementById("board");
     board.height = rows * blockSize;
     board.width = cols * blockSize;
-    context = board.getContext("2d")
+    context = board.getContext("2d") // used for drawing on the board
 
+    update();
 
 }
