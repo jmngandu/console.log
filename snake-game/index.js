@@ -43,15 +43,15 @@ function changeDirection(e){
         velocityX = 0;
         velocityY = -1;
     }
-    if (e.code == "ArrowUp"){
+    else if (e.code == "ArrowDown"){
+        velocityX = 0;
+        velocityY = 1;
+    }
+    else if (e.code == "ArrowLeft"){
         velocityX = 0;
         velocityY = -1;
     }
-    if (e.code == "ArrowUp"){
-        velocityX = 0;
-        velocityY = -1;
-    }
-    if (e.code == "ArrowUp"){
+    if (e.code == "ArrowRight"){
         velocityX = 0;
         velocityY = -1;
     }
