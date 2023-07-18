@@ -15,5 +15,6 @@ window.onload = function() {
 }
 
 function update() {
-    
+    context.fillstyle = "black"
+
 }
