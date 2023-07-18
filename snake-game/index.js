@@ -33,12 +33,16 @@ window.onload = function() {
 function update() {
     context.fillStyle = "black"
     context.fillRect(0, 0, board.width, board.height);
+    context.fillStyle = "red"
+    context.fillRect(foodX, foodY, blockSize, blockSize);
+    if (snakeX == foodX && snakeY == foodY){
+        placeFood();
+    }
     context.fillStyle = "lime"
     snakeX += velocityX * blockSize;
     snakeY += velocityY * blockSize;
     context.fillRect(snakeX, snakeY, blockSize, blockSize);
-    context.fillStyle = "red"
-    context.fillRect(foodX, foodY, blockSize, blockSize);
+    
 }
 
 function changeDirection(e){
