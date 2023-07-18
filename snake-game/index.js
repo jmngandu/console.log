@@ -30,10 +30,14 @@ window.onload = function() {
     placeFood();
     document.addEventListener("keyup", changeDirection);
     //update();
-    setInterval(update, 1000,10);
+    setInterval(update, 1000/10);
 }
 
 function update() {
+
+    if (gameOver) {
+        return;
+    }
     context.fillStyle = "black"
     context.fillRect(0, 0, board.width, board.height);
     context.fillStyle = "red"
