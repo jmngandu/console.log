@@ -37,5 +37,5 @@ function update() {
 
 function placeFood() {
     foodX = Math.floor(Math.random() * cols) * blockSize;
-    foodY = 
+    foodY = Math.floor(Math.random() * rows) * blockSize;
 } 
