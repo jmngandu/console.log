@@ -37,4 +37,5 @@ body{
 }
 .item{
     border: 2px solid #212529;
+    border-radius: 4px;
 }
