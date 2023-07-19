@@ -34,8 +34,16 @@ body{
 .shop{
    display: grid;
    grid-template-columns: repeat(4, 223px);
+   gap: 30px;
+   justify-content: center;
 }
 .item{
     border: 2px solid #212529;
     border-radius: 4px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
 }
