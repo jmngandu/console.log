@@ -13,3 +13,9 @@ body{
     color: white;
     padding: 25px 60px;
 }
+.cart{
+    background-color: #fff;
+    color: #212529;
+    padding: 5px;
+    font-size: 30px;
+}
