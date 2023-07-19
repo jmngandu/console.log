@@ -6,3 +6,10 @@
 body{
     font-family: sans-serif;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    color: white;
+    padding: 25px 60px;
+}
