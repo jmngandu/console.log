@@ -1,22 +1,41 @@
-.dropdown-btn{
-    border-radius: 6px;
-    background-color: gray;
+body {
+    background-color: darkblue;
+  }
+  
+  #text {
+    background-color: black;
     color: white;
-}
-.dropdownmenu {
-    text-decoration: none;
+    padding: 10px;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  #controls {
+    border: 1px black solid;
+    padding: 5px;
+  }
+  
+  #stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+  }
+  
+  #monsterStats {
     display: none;
-    background-color: aquamarine;
-    min-width: 50px;
-    position: absolute;
-    }
-    .dropdownmenu a{
-        text-decoration: none;
-    }
-.dropdownmenu a:hover{
-    background-color: green;
-}
-.dropdown:hover .dropdownmenu{
-    display: block;
-
-}
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
