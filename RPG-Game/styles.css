@@ -1,0 +1,22 @@
+.dropdown-btn{
+    border-radius: 6px;
+    background-color: gray;
+    color: white;
+}
+.dropdownmenu {
+    text-decoration: none;
+    display: none;
+    background-color: aquamarine;
+    min-width: 50px;
+    position: absolute;
+    }
+    .dropdownmenu a{
+        text-decoration: none;
+    }
+.dropdownmenu a:hover{
+    background-color: green;
+}
+.dropdown:hover .dropdownmenu{
+    display: block;
+
+}
