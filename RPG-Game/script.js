@@ -17,4 +17,7 @@ const monstarStats = document.querySelector("#monstarStats");
 const monstarNameText = document.querySelector("#monstarName");
 const monstarHealthText = document.querySelector("#monstarHealth")
 
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
 
