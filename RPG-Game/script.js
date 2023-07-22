@@ -12,6 +12,9 @@ const button3 = document.querySelector("#button3");
 const text = document.querySelector("#text");
 const xpText = document.querySelector("#xpText");
 const healthText = document.querySelector("#healthText");
-const goldText = document.querySelector("#goldText")
+const goldText = document.querySelector("#goldText");
+const monstarStats = document.querySelector("#monstarStats");
+const monstarNameText = document.querySelector("#monstarName");
+const monstarHealthText = document.querySelector("#monstarHealth")
 
 
