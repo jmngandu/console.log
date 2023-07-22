@@ -1,3 +1,6 @@
-var xp = 0;
-var heaalth = 100;
-var gold = 50;
+let xp = 0;
+let heaalth = 100;
+let gold = 50;
+let currentWeapon = 0;
+let fighting
+
