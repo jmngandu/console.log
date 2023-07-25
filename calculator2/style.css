@@ -10,7 +10,6 @@ body {
 }
 .wrapper {
     width: 400px;
-    border: 3px solid red;
     background-color: black;
     color: white;
 }
@@ -49,5 +48,8 @@ body {
 .calc-btn:last-child{
     background-color: #df974c;
     color: white;
+}
+.calc-btn:last-child:hover{
+    background-color: #dfb07e;
 }
 
