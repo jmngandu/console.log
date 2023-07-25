@@ -47,6 +47,7 @@ body {
     flex-basis: 74.8%;
 }
 .calc-btn:last-child{
-    background-color: blue;
+    background-color: #df974c;
+    color: white;
 }
 
