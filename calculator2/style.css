@@ -15,7 +15,7 @@ body {
     color: white;
 }
 .calc-btn-row{
-    border: 3px solid blue;
+    margin-bottom: 0.5%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -31,4 +31,19 @@ body {
     color: black;
     border: none;
     font-size: 40px;
+    height: 100px;
+    flex-basis: 24.5%;
 }
+.calc-btn:hover{
+    background-color: #ebebeb;
+}
+.calc-btn:active{
+    background-color: #bbbcbe;
+}
+.double{
+
+}
+.triple{
+    
+}
+
