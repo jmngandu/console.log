@@ -16,8 +16,12 @@ body {
 }
 .calc-btn-row{
     border: 3px solid blue;
+    display: flex;
+    flex-flow: row nowrap;
 }
 .screen{
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px 5px;
+    font-size: 40px;
 }
