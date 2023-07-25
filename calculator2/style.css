@@ -10,4 +10,13 @@ body {
 }
 .wrapper {
     width: 400px;
+    border: 3px solid red;
+    background-color: black;
+    color: white;
+}
+.calc-btn-row{
+    border: 3px solid blue;
+}
+.screen{
+    text-align: right;
 }
