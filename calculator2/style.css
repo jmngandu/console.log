@@ -41,9 +41,9 @@ body {
     background-color: #bbbcbe;
 }
 .double{
-
+    flex-basis: 49.7%;
 }
 .triple{
-    
+    flex-basis: 74.8%;
 }
 
