@@ -18,10 +18,17 @@ body {
     border: 3px solid blue;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 .screen{
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
     padding: 20px 5px;
+    font-size: 40px;
+}
+.calc-btn{
+    background-color: lightgray;
+    color: black;
+    border: none;
     font-size: 40px;
 }
