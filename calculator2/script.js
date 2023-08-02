@@ -21,6 +21,7 @@ function buttonClick (value){
      }else {
         buffer = buffer + numberString;
      }
+     screen.innerText = buffer;
  }
 
 function init () {
