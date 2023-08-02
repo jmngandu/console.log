@@ -15,7 +15,13 @@ function buttonClick (value){
  }
 
  function handleSymbol(symbol){}
- function handleNumber(numberString){}
+ function handleNumber(numberString){
+     if(buffer === "0"){
+        buffer = numberString;
+     }else {
+        buffer = buffer + numberString;
+     }
+ }
 
 function init () {
     document.querySelector('.calc-buttons')
