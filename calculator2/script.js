@@ -8,6 +8,8 @@ function buttonClick (value){
     console.log(value);
  }
 
+ function handleSymbol(){}
+ function handleNumber(){}
 
 function init () {
     document.querySelector('.calc-buttons')
