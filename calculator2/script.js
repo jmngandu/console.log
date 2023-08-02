@@ -8,7 +8,9 @@ function buttonClick (){ }
 
 function init () {
     document.querySelector('.calc-buttons')
-    .addEventListener("click", function())
+    .addEventListener("click", function(event){
+        
+    })
 
 }
 
