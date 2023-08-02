@@ -7,6 +7,8 @@ const screen = document.querySelector('.screen');
 function buttonClick (){ }
 
 function init () {
+    document.querySelector('.calc-buttons')
+    .addEventListener("click", function())
 
 }
 
