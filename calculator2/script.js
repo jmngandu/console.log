@@ -4,8 +4,11 @@ let previousOperator = 0;
 
 const screen = document.querySelector('.screen');
 
-function buttonClick (value){ }
-console.log(value)
+function buttonClick (value){
+    console.log(value);
+ }
+
+
 function init () {
     document.querySelector('.calc-buttons')
     .addEventListener("click", function(event){
