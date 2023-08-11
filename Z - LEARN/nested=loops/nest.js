@@ -12,3 +12,13 @@ let numberGrid = [
 ]
 
 document.write(numberGrid[2][0]);//[row] [colos]
+
+gfhjkjkjk
+gjjb
+Blobnj
+
+jjh
+jjh
+
+
+jjjj
