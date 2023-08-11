@@ -6,8 +6,9 @@ let numberGrid = [
 ]
 for(let i = 0; i < numberGrid.length; i++){
     for(let j = 0; j < numberGrid[i].length; j++){
-        document.write(numberGrid[i][j]}"<br/>");
+        document.write(numberGrid[i][j]);
     }
+    document.write(numberGrid[i][j]);
 }
 
 
