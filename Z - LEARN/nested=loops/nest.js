@@ -11,4 +11,4 @@ let numberGrid = [
     [7, 8, 9]
 ]
 
-document.write(numberGrid[3,1]);
+document.write(numberGrid[2][0]);
