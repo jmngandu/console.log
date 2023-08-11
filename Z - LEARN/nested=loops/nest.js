@@ -3,3 +3,12 @@ for(let i=0; i < 5; i++){
         document.write(`i is ${i} while j is ${j} <br/>`);
     }
 }
+
+//2D arrays
+let numberGrid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+document.write(numberGrid[3,1]);
