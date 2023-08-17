@@ -23,7 +23,7 @@ for( let i = 0; i < questions.length; i++){
         score++;
         alert("Correct");
     }else{
-        
+        alert("Wrong!");
     }
 }
-    
+alert("You got " + score + "/" + questions.length)
