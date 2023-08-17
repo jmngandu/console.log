@@ -18,6 +18,6 @@ let questions = [
 let score = 0;
 
 for( let i = 0; i < questions.length; i++){
-    
+    let response = window.prompt(questions);
 }
     
