@@ -12,7 +12,3 @@ button.addEventListener('click', function(){
     alert('message sent')
 })
  
-
-
-var newElement = document.createElement("h1");
-messages.innertext = newElement.value.
