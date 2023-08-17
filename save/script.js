@@ -4,4 +4,4 @@ const button = document.getElementById("btn");
 button.addEventListener("click", function(){
    localStorage.name = textbox.value;
 });
-document.write(localStorage.name);
+document.write("<br>", localStorage.name);
