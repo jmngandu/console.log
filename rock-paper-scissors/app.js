@@ -5,6 +5,8 @@ const possibleChoices = document.querySelectorAll("button");
 
 let userchoice
 possibleChoices.forEach(possibleChoice =>possibleChoice.addEventListener("click", (e) => {
+    userchoice = e.target.id
+    UserDisplayChoice.innerHTML = userchoice;
 
 }))
 
