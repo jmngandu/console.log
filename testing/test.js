@@ -40,4 +40,5 @@ document.write(checker(44, 43, 45));
     }
     return day;
 }
+
 document.write(getDayName(8));
