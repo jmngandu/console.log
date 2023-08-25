@@ -10,7 +10,7 @@
  function save(){
      let countstr = count + " - "
      saveEl.textContent += countstr
-     
+     console.log(count)
      countEl.textContent = 0
      count = 0
  }
